@@ -139,19 +139,19 @@ $(document).ready(function () {
           if (info) {
             var contentString = `
 	          <div class="container-fluid">
-	          <h4 class="m-0"> Direccion: Calle 84 - Cra 20 - 158</h4>
+	          <h4 class="m-0"> <small>Direccion: Calle 84 - Cra 20 - 158 </small></h4>
 	          <div class="row justify-content-center align-items-center mt-4">
 	              <div class="card-deck flex-row flex-nowrap mb-3">
 	                <div class="card">
 	                  <div class="card-body pb-1">
-	                    <h5 class="card-title m-0 mb-2">Codigo Sucursal: 025665</h5>
-	                    <p class="card-text m-0"><strong>Sucursal:</strong> Abierta <i class="text-success fa fa-circle" aria-hidden="true"></i></p>
-	                    <p class="card-text m-0"><strong>Encargado:</strong> John Jairo Snow <i class="text-success fa fa-circle" aria-hidden="true"></i></p>
-	                    <p class="card-text m-0"><strong>Reservas:</strong> 45 <i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
-	                    <p class="card-text m-0"><strong>Reservas Canceladas:</strong> 3 <i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
-	                    <p class="card-text m-0"><strong>Reservas Caducadas:</strong> 3 <i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+	                    <h5 class="card-title m-0 mb-2"><small>Codigo Sucursal: 025665 </small></h5>
+	                    <p class="card-text m-0"><small><strong>Sucursal:</strong> Abierta </small> <i class="text-success fa fa-circle" aria-hidden="true"></i></p>
+	                    <p class="card-text m-0"><small><strong>Encargado:</strong> John Jairo Snow  </small><i class="text-success fa fa-circle" aria-hidden="true"></i></p>
+	                    <p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+	                    <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+	                    <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
 	                    <a class="justify-content-center" href="sucursal">
-	                    <button class="text-center btn btn-primary btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
+	                    <button class="text-center btn btn-sm btn-primary btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
 	                  	</a>
 	                  </div>
 	                </div>

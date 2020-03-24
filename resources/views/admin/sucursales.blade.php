@@ -17,33 +17,38 @@
             </div>
           </div>
           </div>
+ 			<div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body" style="background-image: linear-gradient(to right bottom, #005cbb, #1600e2, #1d00c6, #2000aa, #1f0090);">
+		          <ul class="nav justify-content-center">
+					  <li>
+			        	<select class="form-control mr-2 selectCity" name="" id="">
+			            <option selected disabled value="">Departamento</option>
+			            <option data-lat="11.0041072" data-long="-74.8069813" value="">Atlantico</option>
+			        </select>
+			        </li>&nbsp;&nbsp;
+					  <li>
+			        	<select class="form-control mr-2 selectCity" name="" id="">
+			            <option selected disabled value="">Ciudad</option>
+			            <option data-lat="11.0041072" data-long="-74.8069813" value="">Barranquilla</option>
+			            <option data-lat="10.9171191" data-long="-74.7991506" value="">Soledad</option>
+			        </select>
+			        </li>&nbsp;&nbsp;
+			        <li >
+			        	<select class="form-control mr-2 selectNeighborhood" name="" id="">
+			            <option selected disabled value="">Barrio</option>
+			            <option value="">Andalucia</option>
+			            <option value="">Bellavista</option>
+			            <option value="">Campo Alegre</option>
+			            <option value="">La Floresta</option>
+			            <option value="">Los Andes</option>
+			        </select>
+			        </li>
+					</ul>
+                </div>
+              </div>
 
-          <ul class="nav justify-content-center">
-			  <li>
-	        	<select class="form-control mr-2 selectCity" name="" id="">
-	            <option selected disabled value="">Departamento</option>
-	            <option data-lat="11.0041072" data-long="-74.8069813" value="">Atlantico</option>
-	        </select>
-	        </li>&nbsp;&nbsp;
-			  <li>
-	        	<select class="form-control mr-2 selectCity" name="" id="">
-	            <option selected disabled value="">Ciudad</option>
-	            <option data-lat="11.0041072" data-long="-74.8069813" value="">Barranquilla</option>
-	            <option data-lat="10.9171191" data-long="-74.7991506" value="">Soledad</option>
-	        </select>
-	        </li>&nbsp;&nbsp;
-	        <li >
-	        	<select class="form-control mr-2 selectNeighborhood" name="" id="">
-	            <option selected disabled value="">Barrio</option>
-	            <option value="">Andalucia</option>
-	            <option value="">Bellavista</option>
-	            <option value="">Campo Alegre</option>
-	            <option value="">La Floresta</option>
-	            <option value="">Los Andes</option>
-	        </select>
-	        </li>
-			</ul>
-          	
+          	<hr>
           <div id="map" class="map-canvas" data-lat="40.748817" data-lng="-73.985428" style="height: 700px;"></div><br>
 
   			<script src="{{ asset('js/app.js') }}"></script>
