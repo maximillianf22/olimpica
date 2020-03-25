@@ -129,7 +129,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -177,7 +177,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -201,7 +201,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -225,7 +225,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -249,7 +249,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -273,7 +273,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -297,7 +297,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -321,7 +321,7 @@
                       </span>
                     </td>
                     <td>
-                      <div class="dropdown">
+                    	<div class="dropdown">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
@@ -391,5 +391,163 @@
       </div>  
     </div>
  </div>
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="card">
+        <div class="card-header bg-transparent">
+          <h3 class="mb-0">Bloques de Horas</h3>
+        </div>
+        <div class="card-body">
+          <div class="row icon-examples">
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>8:00am - 9:00am</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>9:00am - 10:00am</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>10:00am - 11:00am</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>11:00am - 12:00am</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>12:00am - 1:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>1:00pm - 2:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>2:00pm - 3:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>3:00pm - 4:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>4:00pm - 5:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>5:00pm - 6:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>6:00pm - 7:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 border">
+              <button class="btn-icon-clipboard" type="button"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <span>7:00pm - 8:00pm</span>
+                </div>
+              </button>
+              <div class="card container"><p class="card-text m-0"><small><strong>Reservas:</strong> 45  </small><i class=" text-success fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=" text-danger fa fa-circle" aria-hidden="true"></i></p>
+                  <p class="card-text m-0"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=" text-dark fa fa-circle" aria-hidden="true"></i></p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
 
 @endsection
