@@ -1,5 +1,6 @@
 require('./bootstrap');
-
+require('./mapsuc');
+ 
 $(document).ready(function () {
 
   var markers = [
@@ -160,7 +161,7 @@ $(document).ready(function () {
 	          </div>`
             infowindow.setContent(contentString);
             infowindow.open(map, marker);
-          }
+          }  
         });
 
       })(marker);

@@ -36867,6 +36867,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./mapsuc */ "./resources/js/mapsuc.js");
+
 $(document).ready(function () {
   var markers = [{
     id: 'suc1',
@@ -36975,7 +36977,7 @@ $(document).ready(function () {
           }
 
           if (info) {
-            var contentString = "\n\t          <div class=\"container-fluid\">\n\t          <h4 class=\"m-0\"> Direccion: Calle 84 - Cra 20 - 158</h4>\n\t          <div class=\"row justify-content-center align-items-center mt-4\">\n\t              <div class=\"card-deck flex-row flex-nowrap mb-3\">\n\t                <div class=\"card\">\n\t                  <div class=\"card-body pb-1\">\n\t                    <h5 class=\"card-title m-0 mb-2\">Codigo Sucursal: 025665</h5>\n\t                    <p class=\"card-text m-0\"><strong>Sucursal:</strong> Abierta <i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><strong>Encargado:</strong> John Jairo Snow <i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><strong>Reservas:</strong> 45 <i class=\" text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><strong>Reservas Canceladas:</strong> 3 <i class=\" text-danger fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><strong>Reservas Caducadas:</strong> 3 <i class=\" text-dark fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <a class=\"justify-content-center\" href=\"sucursal\">\n\t                    <button class=\"text-center btn btn-primary btnDetail mt-3 mb-1\"><i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i> Detalles</button>\n\t                  \t</a>\n\t                  </div>\n\t                </div>\n\t              </div>\n\t            </div>\n\t          </div>";
+            var contentString = "\n\t          <div class=\"container-fluid\">\n\t          <h4 class=\"m-0\"> <small>Direccion: Calle 84 - Cra 20 - 158 </small></h4>\n\t          <div class=\"row justify-content-center align-items-center mt-4\">\n\t              <div class=\"card-deck flex-row flex-nowrap mb-3\">\n\t                <div class=\"card\">\n\t                  <div class=\"card-body pb-1\">\n\t                    <h5 class=\"card-title m-0 mb-2\"><small>Codigo Sucursal: 025665 </small></h5>\n\t                    <p class=\"card-text m-0\"><small><strong>Sucursal:</strong> Abierta </small> <i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><small><strong>Encargado:</strong> John Jairo Snow  </small><i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><small><strong>Reservas:</strong> 45  </small><i class=\" text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=\" text-danger fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <p class=\"card-text m-0\"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=\" text-dark fa fa-circle\" aria-hidden=\"true\"></i></p>\n\t                    <a class=\"justify-content-center\" href=\"sucursal\">\n\t                    <button class=\"text-center btn btn-sm btn-primary btnDetail mt-3 mb-1\"><i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i> Detalles</button>\n\t                  \t</a>\n\t                  </div>\n\t                </div>\n\t              </div>\n\t            </div>\n\t          </div>";
             infowindow.setContent(contentString);
             infowindow.open(map, marker);
           }
@@ -37063,6 +37065,64 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/mapsuc.js":
+/*!********************************!*\
+  !*** ./resources/js/mapsuc.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+$(document).ready(function () {
+  var markers3 = [{
+    id: 'santoTomas',
+    position: new google.maps.LatLng(10.6350, -74.93)
+  }];
+  var latlng = new google.maps.LatLng(10.6350, -74.93);
+  var mapOptions1 = {
+    zoom: 18,
+    center: latlng,
+    draggable: false,
+    mapTypeId: 'roadmap',
+    disableDefaultUI: true,
+    zoomControl: false,
+    streetViewControl: true
+  };
+  map_p = new google.maps.Map(document.getElementById('map_p'), mapOptions1);
+  setMarkers(map_p, markers3, true);
+
+  function setMarkers(map, markers, info) {
+    var infowindow;
+    markers.map(function (m) {
+      var _google$maps$Marker;
+
+      marker = new google.maps.Marker((_google$maps$Marker = {
+        map: map,
+        draggable: true,
+        animation: google.maps.Animation.DROP,
+        position: m.position
+      }, _defineProperty(_google$maps$Marker, "draggable", false), _defineProperty(_google$maps$Marker, "icon", 'assets/img/markers/shop.svg'), _google$maps$Marker));
+
+      (function (marker) {
+        google.maps.event.addListener(marker, 'click', function () {
+          if (!infowindow) {
+            infowindow = new google.maps.InfoWindow();
+          }
+
+          if (info) {
+            var contentString = "\n            <div class=\"container-fluid\">\n            <h4 class=\"m-0\"> <small>Direccion: Calle 84 - Cra 20 - 158 </small></h4>\n            <div class=\"row justify-content-center align-items-center mt-4\">\n                <div class=\"card-deck flex-row flex-nowrap mb-3\">\n                  <div class=\"card\">\n                    <div class=\"card-body pb-1\"> \n                      <h5 class=\"card-title m-0 mb-2\"><small>Codigo Sucursal: 025665 </small></h5>\n                      <p class=\"card-text m-0\"><small><strong>Sucursal:</strong> Abierta </small> <i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n                      <p class=\"card-text m-0\"><small><strong>Encargado:</strong> John Jairo Snow  </small><i class=\"text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n                      <p class=\"card-text m-0\"><small><strong>Reservas:</strong> 45  </small><i class=\" text-success fa fa-circle\" aria-hidden=\"true\"></i></p>\n                      <p class=\"card-text m-0\"><small><strong>Reservas Canceladas:</strong> 3  </small><i class=\" text-danger fa fa-circle\" aria-hidden=\"true\"></i></p>\n                      <p class=\"card-text m-0\"><small><strong>Reservas Caducadas:</strong> 3  </small><i class=\" text-dark fa fa-circle\" aria-hidden=\"true\"></i></p>\n                      <a class=\"justify-content-center\" href=\"sucursal\">\n                      <button class=\"text-center btn btn-sm btn-primary btnDetail mt-3 mb-1\"><i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i> Detalles</button>\n                      </a>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>";
+            infowindow.setContent(contentString);
+            infowindow.open(map, marker);
+          }
+        });
+      })(marker);
+    });
+  }
+});
 
 /***/ }),
 

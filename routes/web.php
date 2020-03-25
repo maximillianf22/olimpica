@@ -60,3 +60,7 @@ Route::get('notificaciones', function () {
     return view('admin/notificaciones');
 });
 
+Route::get('sucursal', function () {
+    return view('admin/sucursal');
+});
+
